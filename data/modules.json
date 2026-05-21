@@ -1,0 +1,208 @@
+[
+  {
+    "id": 1,
+    "courseId": 1,
+    "title": "Introdução",
+    "description": "Apresentação inicial do treinamento.",
+    "pdf": "content/codigo_etica_conduta.pdf",
+    "quiz": [
+      {
+        "question": "Qual é o principal objetivo do Código de Ética e Conduta?",
+        "options": [
+          "Aumentar os lucros da empresa",
+          "Orientar comportamentos e decisões éticas no ambiente de trabalho",
+          "Substituir as leis trabalhistas",
+          "Limitar a liberdade dos colaboradores"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Ao presenciar uma situação que viola o código de conduta, o colaborador deve:",
+        "options": [
+          "Ignorar para não se envolver",
+          "Compartilhar nas redes sociais",
+          "Reportar através dos canais apropriados",
+          "Confrontar a pessoa publicamente"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "O que caracteriza um conflito de interesses?",
+        "options": [
+          "Discordar de uma opinião no trabalho",
+          "Quando interesses pessoais interferem nas decisões profissionais",
+          "Ter mais de uma tarefa para fazer",
+          "Trabalhar em equipe"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "courseId": 1,
+    "title": "Assédio",
+    "description": "Boas práticas e ética profissional.",
+    "pdf": "content/MatematicaBásicaI.pdf",
+    "quiz": [
+      {
+        "question": "O que caracteriza assédio moral no ambiente de trabalho?",
+        "options": [
+          "Cobrança de metas e resultados",
+          "Exposição repetitiva a situações humilhantes ou constrangedoras",
+          "Feedback construtivo sobre desempenho",
+          "Reuniões de equipe frequentes"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual atitude é recomendada ao sofrer ou presenciar assédio?",
+        "options": [
+          "Revidar na mesma moeda",
+          "Guardar para si para evitar problemas",
+          "Buscar apoio e reportar através dos canais oficiais",
+          "Pedir demissão imediatamente"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "O assédio sexual no trabalho pode ocorrer através de:",
+        "options": [
+          "Apenas contato físico indesejado",
+          "Somente propostas explícitas de relacionamento",
+          "Comentários, gestos, mensagens ou qualquer conduta de natureza sexual não desejada",
+          "Apenas entre superiores e subordinados"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "courseId": 2,
+    "title": "Trabalho em Altura",
+    "description": "Normas e segurança para trabalho em altura segundo a NR-35.",
+    "pdf": "content/cartilha_trabalho_em_altura.pdf",
+    "quiz": [
+      {
+        "question": "Segundo a NR-35, quando o trabalho em altura é caracterizado?",
+        "options": [
+          "Quando realizado acima de 1 metro",
+          "Quando realizado acima de 2 metros com risco de queda",
+          "Somente em andaimes",
+          "Qualquer trabalho fora do escritório"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Antes de iniciar um trabalho em altura, é obrigatório:",
+        "options": [
+          "Apenas utilizar capacete",
+          "Ter autorização verbal do supervisor",
+          "Planejar, organizar e executar com análise de risco",
+          "Executar rapidamente para reduzir exposição"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Quais são os requisitos para um trabalhador ser autorizado a trabalhar em altura?",
+        "options": [
+          "Ter mais de 18 anos apenas",
+          "Ser capacitado, considerado apto e autorizado pela empresa",
+          "Possuir experiência informal",
+          "Utilizar qualquer tipo de EPI"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "Qual é a principal finalidade do cinturão tipo paraquedista?",
+        "options": [
+          "Melhorar a mobilidade do trabalhador",
+          "Substituir a análise de risco",
+          "Reter quedas e reduzir impactos",
+          "Servir apenas como uniforme"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "O que deve ser feito ao identificar uma condição de risco grave e iminente?",
+        "options": [
+          "Continuar o serviço normalmente",
+          "Ignorar se estiver usando EPI",
+          "Interromper a atividade e comunicar o superior",
+          "Esperar o final do expediente"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "A análise de risco deve considerar:",
+        "options": [
+          "Somente o uso do cinto de segurança",
+          "Apenas condições climáticas",
+          "Riscos adicionais, ancoragem, emergência e proteção",
+          "Somente o tempo de execução"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Qual sistema protege todos os trabalhadores expostos ao risco de queda?",
+        "options": [
+          "SPIQ",
+          "Cinturão individual",
+          "SPCQ",
+          "Talabarte"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "Quem pode ministrar treinamento de trabalho em altura?",
+        "options": [
+          "Qualquer funcionário da empresa",
+          "Somente bombeiros",
+          "Instrutores com proficiência no assunto",
+          "Apenas engenheiros civis"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "A Permissão de Trabalho deve:",
+        "options": [
+          "Ser opcional em atividades não rotineiras",
+          "Ser verbal e sem registro",
+          "Conter medidas de controle e relação dos envolvidos",
+          "Valer indefinidamente"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "O trabalhador deve permanecer conectado ao sistema de proteção contra quedas:",
+        "options": [
+          "Somente durante a subida",
+          "Apenas em locais acima de 5 metros",
+          "Durante todo o período de exposição ao risco",
+          "Somente quando solicitado"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+  "id": 4,
+  "courseId": 2,
+  "title": "Teste de Hyperlink",
+  "description": "Módulo para validar hyperlinks presentes no PDF.",
+  "pdf": "content/teste.pdf",
+  "quiz": [
+    {
+      "question": "Qual o objetivo deste módulo?",
+      "options": [
+        "Testar hyperlinks presentes no PDF",
+        "Treinar matemática básica",
+        "Executar vídeos no navegador",
+        "Testar áudio do sistema"
+      ],
+      "answer": 0
+    }
+  ]
+}
+]

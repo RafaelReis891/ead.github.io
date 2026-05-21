@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Módulo</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/module.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a href="dashboard.html">← Dashboard</a>
+  <div id="moduleTitle">Carregando...</div>
+</header>
+
+<main class="module-container">
+
+  <!-- PDF VIEWER -->
+  <div class="pdf-viewer">
+
+    <canvas id="pdfCanvas"></canvas>
+
+    <button id="fsPrevPage" class="fs-nav left">❮</button>
+    <button id="fsNextPage" class="fs-nav right">❯</button>
+
+  </div>
+
+  <!-- CONTROLES -->
+  <div class="pdf-controls">
+
+    <button id="prevPage">❮</button>
+
+    <div class="page-info">
+      Página <span id="pageNum">1</span> /
+      <span id="pageCount">1</span>
+    </div>
+
+    <button id="nextPage">❯</button>
+
+    <button id="fullscreenBtn">
+      ⛶ Fullscreen
+    </button>
+
+  </div>
+
+  <!-- QUIZ -->
+  <section class="quiz-section">
+
+    <h2>📝 Quiz do Módulo</h2>
+
+    <div id="quizContainer">
+      <p style="text-align:center;color:#94a3b8">
+        Carregando perguntas...
+      </p>
+    </div>
+
+  </section>
+
+</main>
+
+<!-- OVERLAY -->
+<div id="pdfOverlay" class="hidden">
+
+  <div class="pdf-overlay-content">
+
+    <button class="pdf-overlay-close">
+      ✕
+    </button>
+
+    <div class="pdf-overlay-body"></div>
+
+  </div>
+
+</div>
+
+<script src="libs/pdf.min.js"></script>
+
+<script src="js/pdfviewer.js"></script>
+<script src="js/module.js"></script>
+
+</body>
+</html>

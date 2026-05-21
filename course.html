@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Curso</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/course.css">
+
+</head>
+<body>
+
+<header class="topbar">
+
+  <a href="dashboard.html">
+    ← Dashboard
+  </a>
+
+  <div id="courseTitle">
+    Carregando curso...
+  </div>
+
+</header>
+
+<main class="course-container">
+
+  <!-- HERO -->
+
+  <section class="course-hero">
+
+    <div class="course-cover" id="courseCover">
+      📘
+    </div>
+
+    <div class="course-info">
+
+      <h1 id="courseName">
+        Carregando...
+      </h1>
+
+      <p id="courseDescription">
+        Carregando descrição...
+      </p>
+
+      <div class="course-meta">
+
+        <div class="meta-card">
+
+          <span class="meta-label">
+            Progresso
+          </span>
+
+          <span class="meta-value" id="courseProgress">
+            0%
+          </span>
+
+        </div>
+
+        <div class="meta-card">
+
+          <span class="meta-label">
+            Módulos
+          </span>
+
+          <span class="meta-value" id="moduleCount">
+            0
+          </span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- MÓDULOS -->
+
+  <section class="modules-section">
+
+    <div class="section-header">
+
+      <h2>
+        Módulos do Curso
+      </h2>
+
+    </div>
+
+    <div id="modulesGrid" class="modules-grid">
+
+      <!-- módulos carregados via JS -->
+
+    </div>
+
+  </section>
+
+</main>
+
+<script src="js/course.js"></script>
+
+</body>
+</html>

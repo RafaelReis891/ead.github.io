@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>Dashboard</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/dashboard.css" />
+
+</head>
+<body>
+
+<header class="topbar">
+
+  <div class="logo">
+    Plataforma EAD - Salsa Tec
+  </div>
+
+  <nav>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="ranking.html">Ranking</a>
+    <a href="index.html">Sair</a>
+  </nav>
+
+</header>
+
+<main class="container">
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <h1>
+      Bem-vindo ao Portal EAD
+    </h1>
+
+    <p>
+      Continue seus treinamentos e acompanhe seu progresso.
+    </p>
+
+  </section>
+
+  <!-- STATS -->
+
+  <section class="stats">
+
+    <div class="card stat-card">
+
+      <h3>Progresso Geral</h3>
+
+      <span id="progressValue">
+        72%
+      </span>
+
+    </div>
+
+    <div class="card stat-card">
+
+      <h3>Cursos</h3>
+
+      <span id="courseCount">
+        2
+      </span>
+
+    </div>
+
+    <div class="card stat-card">
+
+      <h3>Pontuação</h3>
+
+      <span id="scoreValue">
+        850
+      </span>
+
+    </div>
+
+  </section>
+
+  <!-- CURSOS -->
+
+  <section class="courses-section">
+
+    <div class="section-header">
+
+      <h2>
+        Seus Cursos
+      </h2>
+
+    </div>
+
+    <div id="coursesContainer" class="courses-grid">
+
+      <!-- CURSO -->
+
+      <div class="course-card">
+
+        <div class="course-cover">
+          📘
+        </div>
+
+        <div class="course-content">
+
+          <h3>
+            Código de Conduta
+          </h3>
+
+          <p>
+            Treinamento interno sobre ética e boas práticas.
+          </p>
+
+          <div class="course-progress">
+
+            <div class="progress-bar">
+
+              <div
+                class="progress-fill"
+                style="width:72%;"
+              ></div>
+
+            </div>
+
+            <span>
+              72% concluído
+            </span>
+
+          </div>
+
+          <div class="course-footer">
+
+            <div class="module-info">
+              4 módulos
+            </div>
+
+            <a
+              href="course.html?id=1"
+              class="course-btn"
+            >
+              Continuar
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- CURSO -->
+
+      <div class="course-card">
+
+        <div class="course-cover">
+          ⚠️
+        </div>
+
+        <div class="course-content">
+
+          <h3>
+            NR35
+          </h3>
+
+          <p>
+            Capacitação para trabalho em altura.
+          </p>
+
+          <div class="course-progress">
+
+            <div class="progress-bar">
+
+              <div
+                class="progress-fill"
+                style="width:15%;"
+              ></div>
+
+            </div>
+
+            <span>
+              15% concluído
+            </span>
+
+          </div>
+
+          <div class="course-footer">
+
+            <div class="module-info">
+              8 módulos
+            </div>
+
+            <a
+              href="course.html?id=2"
+              class="course-btn"
+            >
+              Continuar
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+</main>
+
+</body>
+</html>

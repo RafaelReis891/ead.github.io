@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "title": "Código de Conduta",
+    "description": "Treinamento interno sobre ética e boas práticas da empresa.",
+    "icon": "📘"
+  },
+
+  {
+    "id": 2,
+    "title": "NR35",
+    "description": "Capacitação para trabalho em altura e segurança operacional.",
+    "icon": "⚠️"
+  }
+]
