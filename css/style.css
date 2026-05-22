@@ -181,7 +181,7 @@ button{
   position: fixed;
   bottom: 20px;
   right: 20px;
-  width: 180px; /* ajuste conforme necessário */
+  width: 120px; /* ajuste conforme necessário */
   height: auto;
   z-index: 9999;
   pointer-events: none; /* evita atrapalhar cliques */
