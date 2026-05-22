@@ -185,4 +185,50 @@ button{
   height: auto;
   z-index: 9999;
   pointer-events: none; /* evita atrapalhar cliques */
+
+  animation: entrarMascote 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+.mascote-fixo-gif {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  width: 120px;
+  height: auto;
+  z-index: 9999;
+  pointer-events: none;
+  
+  /* 👇 Animação de entrada */
+  animation: entrarMascoteFlip 1.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes entrarMascote {
+  0% {
+    opacity: 0;
+    transform: translateX(500px); /* Começa invisível e deslocado pra direita */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* Fica visível na posição original */
+  }
+}
+
+/* ♿ Respeita usuários que preferem menos animações */
+@media (prefers-reduced-motion: reduce) {
+  .mascote-fixo-gif { animation: none; opacity: 1; }
+}
+
+@keyframes entrarMascoteFlip {
+  0% {
+    opacity: 0;
+    transform: scaleX(-1) translateX(-500px); /* Começa invisível e deslocado pra direita */
+  }
+  100% {
+    opacity: 1;
+    transform: scaleX(-1) translateX(0); /* Fica visível na posição original */
+  }
+}
+
+/* ♿ Respeita usuários que preferem menos animações */
+@media (prefers-reduced-motion: reduce) {
+  .mascote-fixo-gif { animation: none; opacity: 1; }
 }
