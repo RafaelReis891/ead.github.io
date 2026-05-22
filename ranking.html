@@ -3,40 +3,79 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ranking — Plataforma de Cursos</title>
 
-  <title>Ranking</title>
-
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/ranking.css" />  
+  </style>
 </head>
 <body>
 
-<header class="topbar">
-  <div class="logo">🏆 Ranking</div>
+  <!-- TOPBAR -->
+  <header class="topbar">
+    <div class="logo">
+      <div class="logo-icon">🏆</div>
+      RankBoard
+    </div>
+    <nav>
+      <a href="dashboard.html">← Voltar ao Dashboard</a>
+    </nav>
+  </header>
 
-  <nav>
-    <a href="dashboard.html">Dashboard</a>
-  </nav>
-</header>
+  <main class="container">
 
-<main class="container">
-
-  <h1>Ranking de Desempenho</h1>
-
-  <div class="ranking-table">
-
-    <div class="ranking-header">
-      <span>Posição</span>
-      <span>Participante</span>
-      <span>Pontos</span>
+    <!-- PAGE HEADER -->
+    <div class="page-header animate-in">
+      <div class="badge">
+        <span class="pulse"></span>
+        Competição Ativa
+      </div>
+      <h1>Ranking de Desempenho</h1>
+      <p>Veja quem está liderando a plataforma de cursos</p>
     </div>
 
-    <div id="rankingList"></div>
+    <!-- FILTER TABS -->
+    <div class="tabs animate-in" style="animation-delay: 0.1s">
+      <button class="tab active" data-filter="all">Geral</button>
+      <button class="tab" data-filter="weekly">Semanal</button>
+      <button class="tab" data-filter="monthly">Mensal</button>
+    </div>
 
-  </div>
+    <!-- STATS -->
+    <div class="stats-row animate-in" style="animation-delay: 0.2s">
+      <div class="stat-card">
+        <div class="stat-value" id="totalPlayers">0</div>
+        <div class="stat-label">Participantes</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="totalPoints">0</div>
+        <div class="stat-label">Pontos Totais</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="avgPoints">0</div>
+        <div class="stat-label">Média de Pontos</div>
+      </div>
+    </div>
 
-</main>
+    <!-- PODIUM -->
+    <div class="podium" id="podium"></div>
 
-<script src="js/ranking.js"></script>
+    <!-- RANKING TABLE -->
+    <div class="ranking-table animate-in" style="animation-delay: 0.4s">
+      <div class="ranking-header">
+        <span>#</span>
+        <span>Participante</span>
+        <span>Nível</span>
+        <span>Pontos</span>
+      </div>
+      <div id="rankingList"></div>
+    </div>
 
+    <!-- YOUR POSITION -->
+    <div class="your-position animate-in" style="animation-delay: 0.5s" id="yourPosition"></div>
+
+  </main>
+  <script src="js/ranking.js"></script>
 </body>
 </html>
